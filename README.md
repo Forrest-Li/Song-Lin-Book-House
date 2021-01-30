@@ -5,7 +5,7 @@
 
 #### 簡介｜Brief Introduction
 
-* 松林書屋網站，具有圖書館管理功能、活動查看、貼文發佈及登陸系統。
+* 松林書屋網站，具有圖書館管理功能、活動查看、貼文發佈及登入系統。
 * Book House website with Library Management System, Activities Announcement, Blog Publishment & Logging System functions
 
 #### 書屋背後的故事｜Stories Behind This Website
