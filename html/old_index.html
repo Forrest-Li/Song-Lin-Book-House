@@ -1,0 +1,410 @@
+<?php
+session_start();
+?>
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- CSS styles
+    ================================================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../resources/bootstrap/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="../resources/fontawesome/css/all.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="../resources/animate-css/animate.css">
+    <!-- slick Carousel -->
+    <link rel="stylesheet" href="../resources/slick/slick.css">
+    <link rel="stylesheet" href="../resources/slick/slick-theme.css">
+    <!-- Colorbox -->
+    <link rel="stylesheet" href="../resources/colorbox/colorbox.css">
+    <!-- Custom Styles-->
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="icon" type="image/png" href="../images/book-house-logo.png">
+
+    <!-- Page info
+    ================================================== -->
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>松林書屋</title>
+</head>
+<body>
+<div class="body-inner">
+
+    <!-- navbar -->
+    <?php
+    include('componets/navbar.html');
+    ?><!-- navbar end -->
+
+    <!-- banner -->
+    <div class="banner-carousel banner-carousel-1 mb-0">
+        <div class="banner-carousel-item" style="background-image:url(../images/county-bg.jpg)">
+            <div class="slider-content">
+                <div class="overlay"></div>
+                <div class="container h-100">
+                    <div class="row align-items-center h-100">
+                        <div class="col-md-12 text-center">
+                            <h2 class="slide-title" data-animation-in="slideInLeft">17 Years of excellence in</h2>
+                            <h3 class="slide-sub-title" data-animation-in="slideInRight">Construction Industry</h3>
+                            <p data-animation-in="slideInLeft" data-duration-in="1.2">
+                                <a href="services.html" class="slider btn btn-primary">Our Services</a>
+                                <a href="contact.html" class="slider btn btn-primary border">Contact Now</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner-carousel-item" style="background-image:url(../images/bookstore-bg.jpg)">
+            <div class="slider-content text-left">
+                <div class="overlay"></div>
+                <div class="container h-100">
+                    <div class="row align-items-center h-100">
+                        <div class="col-md-12">
+                            <h2 class="slide-title-box" data-animation-in="slideInDown">World Class Service</h2>
+                            <h3 class="slide-title" data-animation-in="fadeIn">When Service Matters</h3>
+                            <h3 class="slide-sub-title" data-animation-in="slideInLeft">Your Choice is Simple</h3>
+                            <p data-animation-in="slideInRight">
+                                <a href="services.html" class="slider btn btn-primary border">Our Services</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner-carousel-item" style="background-image:url(../images/county-bg.jpg)">
+            <div class="slider-content text-right">
+                <div class="overlay"></div>
+                <div class="container h-100">
+                    <div class="row align-items-center h-100">
+                        <div class="col-md-12">
+                            <h2 class="slide-title" data-animation-in="slideInDown">Meet Our Engineers</h2>
+                            <h3 class="slide-sub-title" data-animation-in="fadeIn">We believe sustainability</h3>
+                            <p class="slider-description lead" data-animation-in="slideInRight">We will deal with your
+                                failure that determines how you achieve success.</p>
+                            <div data-animation-in="slideInLeft">
+                                <a href="contact.html" class="slider btn btn-primary" aria-label="contact-with-us">Get
+                                    Free
+                                    Quote</a>
+                                <a href="about.html" class="slider btn btn-primary border"
+                                   aria-label="learn-more-about-us">Learn
+                                    more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- banner end -->
+
+    <!-- book house intro -->
+    <section id="ts-service-area" class="ts-service-area">
+        <div class="container border-dashed">
+            <div class="row text-center">
+                <div class="col-12 decoration-custom-style-1">
+                    <h2 class="section-title">松林書屋是什麼呢？</h2>
+                    <h3 class="section-sub-title">書屋，但不僅僅是書屋</h3>
+                </div>
+            </div>
+            <!--/ Title row end -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="ts-service-box d-flex">
+                        <div class="ts-service-box-img">
+                            <i class="fa fa-5x fa-book" aria-hidden="true" style="width: 75px"></i>
+                        </div>
+                        <div class="ts-service-box-info">
+                            <h3 class="service-box-title"><a href="#">原住民文化藏書部落圖書館</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
+                        </div>
+                    </div><!-- Service 1 end -->
+
+                    <div class="ts-service-box d-flex bg-color-fff2cc-custom">
+                        <div class="ts-service-box-img">
+                            <i class="fa fa-5x fa-university" aria-hidden="true"></i>
+                        </div>
+                        <div class="ts-service-box-info">
+                            <h3 class="service-box-title"><a href="#">部落文化中心</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
+                        </div>
+                    </div><!-- Service 2 end -->
+
+                    <div class="ts-service-box d-flex">
+                        <div class="ts-service-box-img">
+                            <i class="fa fa-5x fa-exchange-alt" aria-hidden="true" style="width: 75px"></i>
+                        </div>
+                        <div class="ts-service-box-info">
+                            <h3 class="service-box-title"><a href="#">城鄉交流與大學生平台</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
+                        </div>
+                    </div><!-- Service 3 end -->
+
+                </div><!-- Col end -->
+
+                <div class="col-lg-4 text-center">
+                    <img loading="lazy" class="img-fluid" src="../images/book-house-logo.png"
+                         alt="service-avater-image">
+                </div><!-- Col end -->
+
+                <div class="col-lg-4 mt-5 mt-lg-0 mb-4 mb-lg-0">
+                    <div class="ts-service-box d-flex">
+                        <div class="ts-service-box-img">
+                            <img loading="lazy" src="../images/study-icon.png" alt="service-icon" style="width: 75px">
+                        </div>
+                        <div class="ts-service-box-info">
+                            <h3 class="service-box-title"><a href="#">青年讀書會</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
+                        </div>
+                    </div><!-- Service 4 end -->
+
+                    <div class="ts-service-box d-flex bg-color-fff2cc-custom">
+                        <div class="ts-service-box-img">
+                            <img loading="lazy" src="../images/movie-theater-icon.png" alt="service-icon"
+                                 style="width: 75px">
+                        </div>
+                        <div class="ts-service-box-info">
+                            <h3 class="service-box-title"><a href="#">部落電影院</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
+                        </div>
+                    </div><!-- Service 5 end -->
+
+                    <div class="ts-service-box d-flex">
+                        <div class="ts-service-box-img">
+                            <img loading="lazy" src="../images/classroom-icon.png" alt="service-icon"
+                                 style="width: 75px">
+                        </div>
+                        <div class="ts-service-box-info">
+                            <h3 class="service-box-title"><a href="#">課輔小教室</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
+                        </div>
+                    </div><!-- Service 6 end -->
+                </div><!-- Col end -->
+            </div><!-- Content row end -->
+
+        </div>
+        <!--/ Container end -->
+    </section><!-- book house intro end -->
+
+    <!-- book house location -->
+    <section id="ts-features" class="ts-features">
+        <div class="container border-dashed">
+            <div class="row">
+                <div class="col-lg-6 decoration-custom-style-2">
+                    <div class="ts-intro">
+                        <h2 class="section-title">書屋在哪裡呢？</h2>
+                        <h3 class="into-sub-title">大山深處，一個充滿愛與溫暖的地方</h3>
+                        <ul class="list-arrow">
+                            <li>
+                                <span class="project-info-label">地址：</span>
+                                <p class="project-info-content">南投縣仁愛鄉親愛村松林部落松林書屋</p>
+                            </li>
+                            <li>
+                                <span class="project-info-label">聯絡電話：</span>
+                                <p class="project-info-content">(+886) 0916 397 918</p>
+                            </li>
+                            <li>
+                                <span class="project-info-label">執行人：</span>
+                                <p class="project-info-content">啟明·拉瓦（趙啟明）</p>
+                            </li>
+                        </ul>
+                    </div><!-- Intro box end -->
+
+                </div><!-- Col end -->
+
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="google-map">
+                        <div id="map" class="map" data-latitude="23.970134" data-longitude="121.096726"
+                             data-marker="../images/marker.png" data-marker-name="Constra"></div>
+                    </div>
+                    <!--/ Accordion end -->
+
+                </div><!-- Col end -->
+            </div><!-- Row end -->
+        </div><!-- Container end -->
+    </section><!-- book house location end -->
+
+    <!-- recent blog -->
+    <section id="main-container" class="main-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="column-title">Who We Are</h3>
+                    <p>when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
+                    <blockquote><p>Semporibus autem quibusdam et aut officiis debitis aut rerum est aut optio cumque nihil necessitatibus autemn ec tincidunt nunc posuere ut</p></blockquote>
+                    <p>He lay on his armour-like  back, and if he lifted. ultrices ultrices sapien, nec tincidunt nunc posuere ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing.</p>
+
+                </div><!-- Col end -->
+
+                <div class="col-lg-6 mt-5 mt-lg-0">
+
+                    <div id="page-slider" class="page-slider small-bg">
+
+                        <div class="item" style="background-image:url('../images/articles/fold-book-3.jpg')">
+                            <div class="container">
+                                <div class="box-slider-content">
+                                    <div class="box-slider-text">
+                                        <h2 class="box-slide-title">Leadership</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- Item 1 end -->
+
+                        <div class="item" style="background-image:url(images/slider-pages/slide-page2.jpg)">
+                            <div class="container">
+                                <div class="box-slider-content">
+                                    <div class="box-slider-text">
+                                        <h2 class="box-slide-title">Relationships</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- Item 1 end -->
+
+                        <div class="item" style="background-image:url(images/slider-pages/slide-page3.jpg)">
+                            <div class="container">
+                                <div class="box-slider-content">
+                                    <div class="box-slider-text">
+                                        <h2 class="box-slide-title">Performance</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- Item 1 end -->
+                    </div><!-- Page slider end-->
+
+
+                </div><!-- Col end -->
+            </div><!-- Content row end -->
+
+        </div><!-- Container end -->
+    </section><!-- recent blog end -->
+
+    <!-- old content -->
+    <div class="jumbotron">
+        <h1 class="display-4">歡迎來到小書屋</h1>
+        <p class="lead">這裡是一個富含原住民文化圖書的圖書館，這裡不但是一個圖書館也是部落的活動中心</p>
+        <hr class="my-4">
+        <p>如果有興趣可以點集下方的藍色按鈕進入我們的網頁</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">深入了解</a>
+        </p>
+    </div>
+
+    <!-- footer -->
+    <footer id="footer" class="footer bg-overlay">
+        <div class="footer-main">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-4 col-md-6 footer-widget footer-about">
+                        <h3 class="widget-title">關於</h3>
+                        <i class="fa fa-info-circle"></i> 松林書屋
+                        <p>松林部落原住民文化與文學主題圖書館</p>
+                        <p>執行人:啟明.拉瓦(趙啟明)
+                            <br> 贊助者:逢甲建築小書屋第11號。
+                            <br> 功能
+                            <br> 1.原住民文化藏書部落圖書館
+                            <br> 2.部落文化中心
+                            <br> 3.城鄉交流與大學生平台
+                            <br> 4.青年讀書會
+                            <br> 5.部落電影院
+                            <br> 6.課輔小教室
+                            <br> 7.小型展覽館</p>
+                        <div class="footer-social">
+                            <ul>
+                                <li><a href="https://facebook.com/themefisher" aria-label="Facebook"><i
+                                        class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/themefisher" aria-label="Twitter"><i
+                                        class="fab fa-twitter"></i></a>
+                                </li>
+                                <li><a href="https://instagram.com/themefisher" aria-label="Instagram"><i
+                                        class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://github.com/themefisher" aria-label="Github"><i
+                                        class="fab fa-github"></i></a></li>
+                            </ul>
+                        </div><!-- Footer social end -->
+                    </div><!-- Col end -->
+
+                    <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+                        <h3 class="widget-title">相關資訊</h3>
+                        <div class="working-hours">
+                            <br> <i class="fa fa-phone"></i> 聯繫電話： <span class="text-right">0916 397 918</span>
+                            <br> <i class="fa fa-envelope"></i> E-mail: <span
+                                class="text-right">chiming.lawa@gmail.com</span>
+                        </div>
+                    </div><!-- Col end -->
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
+                        <h3 class="widget-title">相關網站</h3>
+                        <ul class="list-arrow">
+                            <li><a href="service-single.html">相關網站1</a></li>
+                            <li><a href="service-single.html">相關網站2</a></li>
+                            <li><a href="service-single.html">相關網站3</a></li>
+                            <li><a href="service-single.html">相關網站4</a></li>
+                        </ul>
+                    </div><!-- Col end -->
+                </div><!-- Row end -->
+            </div><!-- Container end -->
+        </div><!-- Footer main end -->
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="copyright-info">
+              <span>Copyright &copy; <script>
+                  document.write(new Date().getFullYear())
+                </script>, 小書屋工作室</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="footer-menu text-center text-md-right">
+                            <ul class="list-unstyled mb-0">
+                                <li><a href="#">關於我們</a></li>
+                                <li><a href="#">團隊</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- Row end -->
+
+                <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
+                    <button class="btn btn-primary" title="Back to Top">
+                        <i class="fa fa-angle-double-up"></i>
+                    </button>
+                </div>
+
+            </div><!-- Container end -->
+        </div><!-- Copyright end -->
+    </footer><!-- Footer end -->
+
+    <!-- Javascript files
+    ================================================== -->
+
+    <!-- initialize jQuery Library -->
+    <script src="../resources/jQuery/jquery.min.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script src="../resources/bootstrap/bootstrap.min.js" defer></script>
+    <!-- Slick Carousel -->
+    <script src="../resources/slick/slick.min.js"></script>
+    <script src="../resources/slick/slick-animation.min.js"></script>
+    <!-- Color box -->
+    <script src="../resources/colorbox/jquery.colorbox.js"></script>
+    <!-- shuffle -->
+    <script src="../resources/shuffle/shuffle.min.js" defer></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7R9yaTcPCXL6jXo999e2LsslI4sr5RrQ"></script>
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>-->
+    <!--
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&callback=initMap&libraries=&v=weekly" defer></script>
+    -->
+    <script src="../js/map.js"></script>
+    <!-- Custom -->
+    <script src="../js/main.js"></script>
+
+</div>
+</body>
+</html>

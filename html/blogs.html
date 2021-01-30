@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS styles
+      ================================================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../resources/bootstrap/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="../resources/fontawesome/css/all.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="../resources/animate-css/animate.css">
+    <!-- slick Carousel -->
+    <link rel="stylesheet" href="../resources/slick/slick.css">
+    <link rel="stylesheet" href="../resources/slick/slick-theme.css">
+    <!-- Colorbox -->
+    <link rel="stylesheet" href="../resources/colorbox/colorbox.css">
+    <!-- Custom Styles-->
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="icon" type="image/png" href="../images/book-house-logo.png">
+
+    <!-- Page info
+    ================================================== -->
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>部落格 - 松林書屋</title>
+</head>
+<body>
+<div class="body-inner">
+
+    <!-- navbar -->
+    <?php
+    include('componets/navbar.php');
+    ?><!-- navbar end -->
+
+    <!-- Banner area -->
+    <div id="banner-area" class="banner-area" style="background-image:url(../images/banner-2.jpg)">
+        <div class="overlay"></div>
+        <div class="banner-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="banner-heading">
+                            <h1 class="banner-title">部落格</h1>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb justify-content-center">
+                                    <li class="breadcrumb-item"><a href="index.php">首頁</a></li>
+                                    <li class="breadcrumb-item"><a href="./blogs.html">部落格</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">所有文章</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div><!-- Col end -->
+                </div><!-- Row end -->
+            </div><!-- Container end -->
+        </div><!-- Banner text end -->
+    </div><!-- Banner area end -->
+
+    <!-- Main container -->
+    <section id="main-container" class="main-container">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 order-1 order-lg-0">
+
+                    <div class="sidebar sidebar-left">
+                        <div class="widget recent-posts">
+                            <h3 class="widget-title">最近貼文</h3>
+                            <ul class="list-unstyled">
+                                <li class="d-flex align-items-center">
+                                    <div class="posts-thumb">
+                                        <a href="./blog-1.html"><img loading="lazy" alt="img"
+                                                                     src="../images/articles/fold-book-1.jpg"></a>
+                                    </div>
+                                    <div class="post-info">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-1.html">立體書製作活動紀錄</a>
+                                        </h4>
+                                    </div>
+                                </li><!-- 1st post end-->
+
+                                <li class="d-flex align-items-center">
+                                    <div class="posts-thumb">
+                                        <a href="./blog-2.html"><img loading="lazy" alt="img"
+                                                                     src="../images/articles/personal-1.jpg"></a>
+                                    </div>
+                                    <div class="post-info">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-2.html">啟明‧拉瓦(趙啟明)訪問稿</a>
+                                        </h4>
+                                    </div>
+                                </li><!-- 2nd post end-->
+
+                                <li class="d-flex align-items-center">
+                                    <div class="posts-thumb">
+                                        <a href="./blog-3.html"><img loading="lazy" alt="img"
+                                                                     src="../images/articles/find-home-1.jpg"></a>
+                                    </div>
+                                    <div class="post-info">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-3.html">持續走在「回家」的路上：重返山林，找回原住民知識的「棲地」</a>
+                                        </h4>
+                                    </div>
+                                </li><!-- 3rd post end-->
+
+                            </ul>
+
+                        </div><!-- Recent post end -->
+
+                        <div class="widget">
+                            <h3 class="widget-title">類別</h3>
+                            <ul class="arrow nav nav-tabs">
+                                <li><a href="#">紀錄</a></li>
+                                <li><a href="#">議題</a></li>
+                                <li><a href="#">自傳</a></li>
+                                <li><a href="#">評論</a></li>
+                                <li><a href="#">其它</a></li>
+                            </ul>
+                        </div><!-- Categories end -->
+
+                        <div class="widget widget-tags">
+                            <h3 class="widget-title">標籤</h3>
+
+                            <ul class="list-unstyled">
+                                <li><a href="#">環境</a></li>
+                                <li><a href="#">原住民</a></li>
+                                <li><a href="#">政治政策</a></li>
+                                <li><a href="#">傳統領域</a></li>
+                                <li><a href="#">認同</a></li>
+                                <li><a href="#">文化</a></li>
+                                <li><a href="#">書摘</a></li>
+                                <li><a href="#">人生</a></li>
+                                <li><a href="#">心路歷程</a></li>
+                                <li><a href="#">訪問</a></li>
+                                <li><a href="#">書屋</a></li>
+                                <li><a href="#">松林部落</a></li>
+                                <li><a href="#">紀錄</a></li>
+                            </ul>
+                        </div><!-- Tags end -->
+
+
+                    </div><!-- Sidebar end -->
+                </div><!-- Sidebar Col end -->
+
+                <div class="col-lg-8 mb-5 mb-lg-0 order-0 order-lg-1">
+                    <div class="post">
+                        <div class="post-media post-image">
+                            <img loading="lazy" src="../images/articles/fold-book-1.jpg" class="img-fluid"
+                                 alt="post-image">
+                        </div>
+
+                        <div class="post-body">
+                            <div class="entry-header">
+                                <div class="post-meta">
+                <span class="post-author">
+                  <i class="far fa-user"></i> 啟明‧拉瓦
+                </span>
+                                    <span class="post-cat">
+                  <i class="far fa-folder-open"></i><a href="#"> 紀錄</a>
+                </span>
+                                    <span class="post-meta-date"><i class="far fa-calendar"></i> 2020年12月24日、27日</span>
+                                </div>
+                                <h2 class="entry-title">
+                                    <a href="./blog-1.html">立體書製作活動紀錄</a>
+                                </h2>
+                            </div><!-- header end -->
+
+                            <div class="entry-content">
+                                <p>#20201227立體書製作活動#
+                                    立體書製作活動順利完成，部落親子約15-18人參與。感謝半隻羊立體書實驗工作室提供材料與教學，奇美博物館、
+                                    暨南大學歷史系、科博獸醫登山社、走走家具與個別等人力協助，親愛國小詹校長與松林部落族人熱心參與指導。
+                                    以及，半隻羊、走走家具與普羅相機禮品文具贊助。過程順利，小朋友與親子收穫滿滿。感謝。 ...</p>
+                            </div>
+
+                            <div class="post-footer">
+                                <a href="./blog-1.html" class="btn btn-primary">繼續閱讀下去</a>
+                            </div>
+
+                        </div><!-- post-body end -->
+                    </div><!-- 1st post end -->
+
+                    <div class="post">
+                        <div class="post-media post-video">
+                            <div class="post-media post-image">
+                                <img loading="lazy" src="../images/articles/personal-1.jpg" class="img-fluid"
+                                     alt="post-image">
+                            </div>
+                        </div>
+
+                        <div class="post-body">
+                            <div class="entry-header">
+                                <div class="post-meta">
+                <span class="post-author">
+                  <i class="far fa-user"></i><a href="#"> 啟明‧拉瓦</a>
+                </span>
+                                    <span class="post-cat">
+                  <i class="far fa-folder-open"></i><a href="#"> 自傳</a></i>
+                </span>
+                                    <span class="post-meta-date"><i class="far fa-calendar"></i> 2009年05月12日</span>
+                                </div>
+                                <h2 class="entry-title">
+                                    <a href="./blog-2.html">啟明‧拉瓦(趙啟明)訪問稿</a>
+                                </h2>
+                            </div><!-- header end -->
+
+                            <div class="entry-content">
+                                <p>受訪者:(族名)啟明‧拉瓦；(漢名)趙啟明
+                                    受訪者族別: 泰雅族
+                                    訪問者: 陳芷凡
+                                    記錄者: 林宜妙
+                                    謄稿者: 馬昀甄
+                                    陳: 書寫的作品就像是考古的碎片一樣，當它存在的時候不見得是從旁邊掉下來的，關係著其他的土壤或當時氣候
+                                    現象存在。所以其實想請教你書寫的過程，特別是你從趙啟明到啟明拉瓦，想要請你談一下這個過程。 ...</p>
+                            </div>
+
+                            <div class="post-footer">
+                                <a href="./blog-2.html" class="btn btn-primary">繼續閱讀下去</a>
+                            </div>
+
+                        </div><!-- post-body end -->
+                    </div><!-- 2nd post end -->
+
+                    <div class="post">
+                        <div class="post-media post-image">
+                            <img loading="lazy" src="../images/articles/find-home-1.jpg" class="img-fluid" alt="post-image">
+                        </div>
+
+                        <div class="post-body">
+                            <div class="entry-header">
+                                <div class="post-meta">
+                <span class="post-author">
+                  <i class="far fa-user"></i> 邱韻芳
+                </span>
+                                    <span class="post-cat">
+                  <i class="far fa-folder-open"></i><a href="#"> 議題</a>
+                </span>
+                                    <span class="post-meta-date"><i class="far fa-calendar"></i> 2020年10月9日</span>
+                                </div>
+                                <h2 class="entry-title">
+                                    <a href="./blog-3.html">持續走在「回家」的路上：重返山林，找回原住民知識的「棲地」</a>
+                                </h2>
+                            </div><!-- header end -->
+
+                            <div class="entry-content">
+                                <p>【精選書摘】
+                                    本文為趙恩潔主編的《南方的社會，學（上）：她者亦是共同體》書中〈持續走在「回家」的路上：後「認同汙名」
+                                    時代的原住民〉部分書摘，經左岸文化授權刊登，文章標題與文內小標經《報導者》編輯改寫。
+                                    《南方的社會，學》闡釋的「南方」不是一種地理方位，不是一種開發程度，而是一種擁抱內外異己的概念。
+                                    《南方的社會，學》以更多元的方式來反對經濟至上的觀點，也更堅持去體悟多重交織下的，南方之中的南方。 ...</p>
+                            </div>
+
+                            <div class="post-footer">
+                                <a href="./blog-3.html" class="btn btn-primary">繼續閱讀下去</a>
+                            </div>
+
+                        </div><!-- post-body end -->
+                    </div><!-- 3rd post end -->
+
+                    <nav class="paging" aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-double-left"></i></a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#"><i
+                                    class="fas fa-angle-double-right"></i></a></li>
+                        </ul>
+                    </nav>
+
+                </div><!-- Content Col end -->
+
+            </div><!-- Main row end -->
+
+        </div><!-- Container end -->
+    </section><!-- Main container end -->
+
+    <!-- footer -->
+    <?php
+    include('componets/footer.html');
+    ?><!-- Footer end -->
+
+    <!-- Javascript files
+    ================================================== -->
+
+    <!-- initialize jQuery Library -->
+    <script src="../resources/jQuery/jquery.min.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script src="../resources/bootstrap/bootstrap.min.js" defer></script>
+    <!-- Slick Carousel -->
+    <script src="../resources/slick/slick.min.js"></script>
+    <script src="../resources/slick/slick-animation.min.js"></script>
+    <!-- Color box -->
+    <script src="../resources/colorbox/jquery.colorbox.js"></script>
+    <!-- shuffle -->
+    <script src="../resources/shuffle/shuffle.min.js" defer></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
+    <!--
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&callback=initMap&libraries=&v=weekly" defer></script>
+    -->
+    <script src="../js/map.js"></script>
+    <!-- Custom -->
+    <script src="../js/main.js"></script>
+
+</div><!-- Body inner end -->
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/login.css" rel="stylesheet" type="text/css">
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="icon" type="image/png" href="../images/book-house-logo.png">
+
+    <!-- Page info
+    ================================================== -->
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>登入界面 - 松林書屋</title>
+</head>
+<body class="text-center">
+<div class="overlay"></div>
+
+<main class="row form-area">
+    <div class="d-none d-sm-none d-md-block col-md-6 col-lg-6 p-0 left-side div-center-vert-custom">.
+        <div class="div-center-hori-custom w-80-custom">
+            <div class="py-5 text-white"><label class="h4">歡迎成為小書屋的夥伴</label></div>
+            <div><p class="text-white text-align-left">
+                在這裡，有什麼什麼什麼什麼，在這裡，有什麼什麼什麼什麼。你有機會怎樣怎樣怎樣，你有機會怎樣怎樣怎樣，你有機會怎樣怎樣怎樣。歡迎成為小書屋的夥伴歡迎成為小書屋的夥伴歡迎成為小書屋的夥伴歡迎成為小書屋的夥伴歡迎成為小書屋的夥伴。</p>
+            </div>
+            <div class="py-5"><a class="btn btn-lg btn-custom w-100" href="index.php">再多了解了解我們</a></div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 p-0 right-side div-center-vert-custom">
+        <form class="form-signin div-center-hori-custom w-80-custom" method="post" action="../php/login.php">
+            <div class="text-center-custom w-100 div-center-hori-custom py-5"><label class="h4">登入</label></div>
+            <div class="d-flex w-100 div-center-hori-custom p-0">
+                <div class="text-center-custom text-width-64px py-2"><label for="inputUsername" class="visually-hidden">帳號</label>
+                </div>
+                <div class="px-2 flex-fill"><input type="text" id="inputUsername" name="id" value=""
+                                                   class="form-control"
+                                                   onblur="if(this.value=='') this.value=this.defaultValue"
+                                                   onfocus="if(this.value==this.defaultValue) this.value=''"
+                                                   placeholder="xxxxxx"
+                                                   required="" autofocus=""></div>
+            </div>
+            <div class="d-flex w-100 div-center-hori-custom p-0">
+                <div class="text-center-custom text-width-64px py-2"><label for="inputPassword" class="visually-hidden">密碼</label>
+                </div>
+                <div class="px-2 flex-fill"><input type="password" id="inputPassword" name="pw" value="" class="form-control"
+                                                   onblur="if(this.value=='') this.value=this.defaultValue"
+                                                   onfocus="if(this.value==this.defaultValue) this.value=''"
+                                                   placeholder="在此輸入密碼"
+                                                   required=""></div>
+            </div>
+            <div class="py-5"><button type="submit" class="btn btn-lg btn2-custom w-100" title="Pass" name=".login" value="Pass">登入</button>
+            </div>
+            <a href="../html/register.html">尚未註冊</a>
+            <div><p class="mt-5 mb-3 font-italic">Copyright &copy; <script>
+                document.write(new Date().getFullYear())
+            </script>, 小書屋工作室</p></div>
+        </form>
+    </div>
+
+</main>
+
+<!-- Custom -->
+<script src="../js/login.js"></script>
+
+</body>
+</html>
